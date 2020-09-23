@@ -1,0 +1,88 @@
+@import "./styles/omega";
+@import "~bootstrap/scss/bootstrap";
+
+.container {
+  padding: 0 !important;
+  max-width: 70%;
+}
+
+.tab-content {
+  border: 1px solid $table-border-color !important;
+}
+
+.nav-tabs {
+  margin-bottom: 0 !important;
+}
+
+.popover {
+  max-width: 360px;
+}
+
+.card-header-tabs {
+  // react-bootstrap bug fix
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.dropdown-toggle.nav-link {
+  // fix for dropdown alignment
+  padding: 0 !important;
+}
+
+.buttonContainer {
+  padding-top: 10px;
+  border-top: 1px solid;
+}
+
+.categorie {
+   border-top: 1px solid;
+   margin: 5px;
+   padding: 10px;
+ }
+
+ .configPrice {
+   font-weight: bold;
+ }
+
+ .empty_product {
+   cursor: pointer;   
+ }
+
+ .selected_product {
+   color: rgb(106, 202, 10);
+   cursor: pointer;
+   font-size: 20px;
+ }
+
+ .product {
+    border-top: 1px solid;
+    padding: 15px;
+ }
+
+ .productDetail {
+   cursor: pointer;
+   color: rgba(15, 67, 236, 0.849);
+   font-size: 13px;
+ }
+
+ .resetConfig {
+   width: 100%;
+   height: 30px;
+   margin-top: 5px;
+ }
+
+.logoContainer {
+  text-align: center;
+}
+
+ .categoriesLogo {
+   margin-top: 0.42rem;
+   width: 50px;
+   padding-left: auto;
+   padding-right: auto;
+ }
+
+ .productPrice {
+   margin-left: 2rem;
+   font-weight: bold;
+ }
